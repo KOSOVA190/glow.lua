@@ -84,5 +84,4 @@ end
 RemoteEvent.OnServerEvent:Connect(function(player)
     local currentState = player.Character:FindFirstChild("RedGlow").Enabled
     toggleAllPlayersGlow(not currentState)
-print("hi")
 end)
